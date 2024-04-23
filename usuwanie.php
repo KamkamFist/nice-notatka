@@ -18,4 +18,5 @@ if(isset($_GET['id'])) {
         exit();
     } 
 }
+mysqli_close($cnn);
 ?>

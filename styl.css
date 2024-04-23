@@ -1,16 +1,104 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+margin: 0;
+padding: 0;
 }
 #note {
-    border: 1px solid black;
-    border-radius: 2px;
     width: 300px;
-    margin: 20px;
-    background-color: aliceblue;
+    height: 150px;
+    border-radius: 1rem;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
 }
 #all {
-    background-color: antiquewhite;
-    width: 340px;
     margin: 10px;
     padding: 15px;
+    float: left;
+    height: 500px;
+    overflow-y: auto;
+    background-color: grey;
+    border-radius: 2rem;
+}
+#add {
+float: left;
+background-color: azure;
+background-color: grey;
+padding: 20px;
+border-radius: 2rem;
+
+}
+#zawartosc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+#baner {
+   background-color: grey;
+   width: 100vw;
+   height: 10vh;
+   text-align: center;
+   margin: 0;
+   font-size: 40px;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+#tytulwow {
+    width: 400px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+#trescwow {
+    width: 400px;
+    height: 300px;
+    border-radius: 1rem;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+#edycja {
+    width: 290px;
+    height: 50px;
+    border-radius: 1rem;
+    background-color: grey;
+    border: none;
+    font-size: 15px;
+
+}
+button {
+    background-color: darkgrey;
+    border-radius: 1rem;
+    border: none;
+    height: 25px;
+}
+#filtr {
+    background-color: darkgrey;
+    border-radius: 1rem;
+    border: none;
+    height: 25px;
+}
+#all::-webkit-scrollbar {
+    width: 5px; 
+}
+
+#all::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+#all::-webkit-scrollbar-thumb {
+    background-color:none; 
+    border-radius: 6px; 
 }
